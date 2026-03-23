@@ -30,6 +30,7 @@ export default function Home() {
         setLoading(false);
       });
   }, []);
+
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* 1. Header & Logo */}
@@ -44,7 +45,7 @@ export default function Home() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-yellow-700">Trường Gold</span>
+            <span className="text-xl font-bold text-yellow-700">Trường Hằng Gold</span>
           </div>
           
           {/* Menu điều hướng */}
