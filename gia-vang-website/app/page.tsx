@@ -49,12 +49,19 @@ export default function Home() {
           </div>
           
           {/* Menu điều hướng */}
+          {/* Menu điều hướng */}
           <div className="flex items-center gap-6 text-gray-700">
-            {['Trang chủ', 'Sản phẩm', 'Dịch vụ', 'Liên hệ'].map(item => (
-              <a key={item} href="#" className="hover:text-yellow-600 transition-colors">
-                {item}
-              </a>
-            ))}
+            <a href="#" className="hover:text-yellow-600 transition-colors">Trang chủ</a>
+            <a href="#" className="hover:text-yellow-600 transition-colors">Sản phẩm</a>
+            <a href="#" className="hover:text-yellow-600 transition-colors">Dịch vụ</a>
+            <a 
+              href="https://www.facebook.com/profile.php?id=100036361603738" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-yellow-600 transition-colors font-bold"
+            >
+              Liên hệ
+            </a>
           </div>
         </nav>
       </header>
