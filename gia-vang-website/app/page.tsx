@@ -122,8 +122,22 @@ export default function Home() {
       </main>
 
       {/* Footer (tùy chọn) */}
-      <footer className="bg-white border-t mt-12 py-6 text-center text-gray-600">
-        <p className="text-sm mt-1">Số 22 - Lê Xoay - Ngô Quyền - Vĩnh Yên - Vĩnh Phúc</p>
+      {/* Footer có nút Bản đồ */}
+      <footer className="bg-white border-t mt-12 py-8 text-center text-gray-600 flex flex-col items-center">
+        <p className="text-lg font-bold text-yellow-700 mb-2">Cửa hàng Vàng bạc Trường Gold</p>
+        <p className="text-sm mb-4">Số 22 - Lê Xoay - Ngô Quyền - Vĩnh Yên - Vĩnh Phúc</p>
+        
+        {/* Nút chỉ đường */}
+        <a
+          href="https://share.google/BWEhkCNnCFyzAYUtm"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-yellow-600 text-white px-6 py-2 rounded-full hover:bg-yellow-700 transition-colors font-medium shadow-md"
+        >
+          📍 Xem bản đồ chỉ đường
+        </a>
+        
+        <p className="text-xs mt-8 text-gray-400">© 2026 Trường Gold. All Rights Reserved.</p>
       </footer>
     </div>
   );
